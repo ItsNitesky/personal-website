@@ -7,8 +7,8 @@ import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "Hi, I'm Brant",
-  description: "I'm a Marketing & Events Professional with over 10 years of experience in the online media space.",
+  title: "Hi, I&apos;m Brant",
+  description: "I&apos;m a Marketing & Events Professional with over 10 years of experience in the online media space.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html suppressHydrationWarning lang="en">
       <head />
       <body
         className={clsx(
